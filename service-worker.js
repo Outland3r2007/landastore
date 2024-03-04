@@ -1,0 +1,3 @@
+//Copying or selling this code is strictly prohibited
+//Written by @Outland3r2007
+const CACHE_NAME="LandaStore";self.addEventListener("install",(s=>{s.waitUntil(caches.open(CACHE_NAME).then((s=>s.addAll(["/","app.html","css/styles.css","core.js","apps.json","https://cdn.jsdelivr.net/npm/framework7@8/framework7-bundle.min.js","manifest.json","https://cdn.jsdelivr.net/npm/framework7-icons@5.0.5/css/framework7-icons.css","https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js","https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"]))))})),self.addEventListener("fetch",(s=>{s.respondWith(fetch(s.request).then((e=>{const t=e.clone();return caches.open(CACHE_NAME).then((e=>e.put(s.request,t))),e})).catch((()=>caches.match(s.request))))}));

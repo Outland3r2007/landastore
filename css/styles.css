@@ -2,6 +2,7 @@
     --f7-ios-primary: #3E84F7;
     --f7-ios-primary-shade: #3E84F7;
     --f7-ios-primary-tint: #3E84F7;
+		--f7-safe-area-bottom: 0px;
 		--lamp-toolbar-duration:.5s;
 }
 
@@ -37,7 +38,7 @@ a,body {
 .lamp-tabbar {
     --f7-toolbar-inner-padding-left: 0px;
     --f7-toolbar-inner-padding-right: 0px;
-    --f7-tabbar-icon-size: 24px;
+    --f7-tabbar-icon-size: 30px;
     overflow: hidden;
     --computed-lamp-color: var( --active-lamp-color, var(--f7-tabbar-link-active-border-color, var(--f7-theme-color)) )
 }
@@ -58,7 +59,7 @@ ion-icon {
 
 @media (max-width:767px) {
     .ios .lamp-tabbar {
-        --f7-tabbar-icon-size: 20px;
+        --f7-tabbar-icon-size: 30px;
     }
 
     .ios .lamp-tabbar.tabbar-icons .tab-link i.icon {
@@ -113,7 +114,7 @@ ion-icon {
     box-shadow: 0 0 2px var(--computed-lamp-color);
     border-radius: 0 0 4px 4px;
 }
-
+.toolbar-bottom{border-radius:24px;margin-bottom: 11px;height: 60px;width: 87%;position: absolute;left: 50%;transform: translateX(-50%);}
 .searchbar {
     overflow-x: hidden;
 }

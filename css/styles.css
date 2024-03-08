@@ -155,7 +155,7 @@ ion-icon {
 }
 
 .get {
-    width: 60px;
+    width: 63px;
     margin-top: 10px;
     margin-left: 4px;
 }
@@ -163,7 +163,8 @@ ion-icon {
 .item-media img {
     width: 60px;
     height: 60px;
-    background-color: #c2c2c2;
+    background-image: url('https://landastore.pages.dev/assets/default.png');
+		background-size: cover;
     border-radius: 23.3%;
 }
 

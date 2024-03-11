@@ -1,4 +1,7 @@
 [ {
+    "id":"aappvalley","title":"AppValley","category":"3rd Party App Store","icon":"https://app-valley.vip/assets/icon/appvalley.jpg","description":"AppValley® Install apps like Spotify++, Minecraft!","compatible":"N/A","get_link":"https://app-valley.vip/","type":"Website","screenshots":["https://i.imgur.com/WCmcHjG.jpeg"],"badge":""
+	},
+	{
     "id":"acutecalc","title":"Acute Calculator","category":"Other","icon":"https://i.imgur.com/AVurVqQ.png","description":"Advanced graph calculator.Free,no ads and no subscriptions.","compatible":"16.0 or later","get_link":"https://apps.apple.com/ro/app/acute-calculator/id6476837563","type":"App","screenshots":["https://i.imgur.com/Pbl5FPq.jpeg"],"badge":""
 	},
 	{
